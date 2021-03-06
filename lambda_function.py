@@ -2,7 +2,7 @@ import boto3
 import os
 from boto3.dynamodb.conditions import Key
 
-# This is a comment of code in lambda function
+# This is a comment of code in lambda function, now i need to validate behavior of pipeline
 
 DYNAMO_BD = os.environ['DYNAMO_BD']
 
